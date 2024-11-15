@@ -16,14 +16,12 @@ import 'prismjs/themes/prism-tomorrow.css'
 
 import { headConfig } from '@/plugins/head'
 import pinia from '@/plugins/pinia'
-import { primeVuePlugin } from '@/plugins/primevue'
+import { primeVuePlugin, primeVueConfig } from '@/plugins/primevue'
 
 export default defineApp({
   enhanceApp({ app }) {
     app.use(pinia)
-    app.use(primeVuePlugin, {
-      theme: 'none', // Using tailwindcss instead
-    })
+    app.use(primeVuePlugin, primeVueConfig)
   },
   head({ frontmatter, site }) {
     return headConfig({ frontmatter, site })
