@@ -4,9 +4,17 @@
 
 export default {
   title: 'Vue Designer',
-  description: 'Vue Designer îles Tailwind CSS - Quick start template',
+  description: 'Vue Designer îles PrimeVue Tailwind CSS - Quick start template',
   author: 'Pinegrow',
-  url: 'https://pg-iles-tailwindcss.netlify.app',
+  url: 'https://pg-iles-primevue-tailwindcss.netlify.app',
+  github: 'https://github.com/pinegrow/pg-iles-primevue-tailwindcss',
+  defaultLocale: 'en', // default
+  identity: {
+    type: 'Organization',
+  } as any,
+  twitter: '@vuedesigner',
+  trailingSlash: false, // default
+  titleSeparator: '|', // default
   nav: [
     {
       text: 'Home',

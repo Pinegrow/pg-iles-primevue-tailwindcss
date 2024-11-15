@@ -1,8 +1,8 @@
-# Vue Designer îles Tailwind CSS - Quick start template
+# Vue Designer îles PrimeVue Tailwind CSS - Quick start template
 
-This is a starter template that pre-includes the [Pinegrow îles Module](https://www.npmjs.com/package/@pinegrow/iles-module), [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) and other goodies for Vue Designer.
+This is a starter template that pre-includes the [Pinegrow îles Module](https://www.npmjs.com/package/@pinegrow/iles-module), [PrimeVue](https://primevue.org/introduction/), [Pinegrow PrimeVue Plugin](https://www.npmjs.com/package/@pinegrow/primevue-plugin), [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) and other goodies for Vue Designer.
 
-Demo - https://pg-iles-tailwindcss.netlify.app/
+Demo - https://pg-iles-primevue-tailwindcss.netlify.app/
 
 ## Vue Designer
 
@@ -18,15 +18,15 @@ Clean code 😃, No lock-in - You are in control of your projects and developmen
 
 ### 1. Clone to local
 
-[Create a repo from this template on GitHub](https://github.com/pinegrow/pg-iles-tailwindcss/generate).
+[Create a repo from this template on GitHub](https://github.com/pinegrow/pg-iles-primevue-tailwindcss/generate).
 
 (or)
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx giget@latest gh:pinegrow/pg-iles-tailwindcss my-iles-tailwindcss-app #project-name
-cd my-iles-tailwindcss-app
+npx giget@latest gh:pinegrow/pg-iles-primevue-tailwindcss my-iles-primevue-tailwindcss-app #project-name
+cd my-iles-primevue-tailwindcss-app
 npm install #or use pnpm
 ```
 
@@ -35,8 +35,8 @@ npm install #or use pnpm
 If you prefer a minimal template (a single empty home page) instead,
 
 ```bash
-npx giget@latest gh:pinegrow/pg-iles-tailwindcss#minimal my-iles-tailwindcss-app #project-name
-cd my-iles-tailwindcss-app
+npx giget@latest gh:pinegrow/pg-iles-primevue-tailwindcss#minimal my-iles-primevue-tailwindcss-app #project-name
+cd my-iles-primevue-tailwindcss-app
 npm install #or use pnpm
 ```
 
@@ -81,7 +81,7 @@ npm run unlighthouse # Uses npx unlighthouse from https://unlighthouse.dev/ to r
 ### Deploy to Netlify
 
 You can deploy this repo as a site on your own to explore and experiment with, by clicking this button.
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Pinegrow/pg-iles-tailwindcss)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Pinegrow/pg-iles-primevue-tailwindcss)
 
 Check out the [deployment documentation](https://iles.pages.dev/guide/deployment) for more information.
 
@@ -100,6 +100,7 @@ Check out the [deployment documentation](https://iles.pages.dev/guide/deployment
 
 ### UI Frameworks
 
+- [PrimeVue](https://primevue.org/introduction/) - PrimeVue is a complete UI suite for Vue.js consisting of a rich set of UI components, icons, blocks, and application templates.
 - [Tailwind CSS](https://tailwindcss.com/docs/guides/vite#vue) - The amazing utility-first CSS framework.
 
 ### File-based CMS (markdown)
@@ -114,6 +115,7 @@ Check out the [deployment documentation](https://iles.pages.dev/guide/deployment
 ### Modules/Plugins
 
 - [Pinegrow îles Module](https://www.npmjs.com/package/@pinegrow/iles-module) - enables you to live-design your Vue single-file components visually in Vue Designer.
+- [Pinegrow PrimeVue Plugin](https://www.npmjs.com/package/@pinegrow/primevue-plugin) - via Design Panel, enables theme customization (optional) and visual controls for Primevue utilities. Note: This is an addon that's licensed separately to Pinegrow apps (like Vue Designer).
 - [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) - via Design Panel, enables visual controls customization (automatic) and theme customization (optional).
 - [@islands/pages](https://iles.pages.dev/guide/plugins#islandspages) - enables file-based routing, hooks to extend frontmatter and route data, supports a <page> block in Vue single-file components for meta-data. This module is shipped inside îles.
 - 📲 [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) - On-demand components auto importing for Vue.

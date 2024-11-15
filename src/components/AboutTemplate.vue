@@ -32,7 +32,9 @@
           </div>
           <div class="p-5 text-center w-full whitespace-nowrap">
             <h5>UI-framework</h5>
-            <p class="text-primary-600 dark:text-primary-200">Tailwind CSS</p>
+            <p class="text-primary-600 dark:text-primary-200">
+              PrimeVue + Tailwind CSS
+            </p>
           </div>
         </div>
       </div>
@@ -51,6 +53,14 @@
             external
             href="https://www.npmjs.com/package/@pinegrow/iles-module"
             >Pinegrow Îles Module</a
+          >
+          <span>, </span>
+          <a
+            class="font-mono text-sm underline text-primary-600 dark:text-primary-200"
+            target="_blank"
+            external
+            href="https://www.npmjs.com/package/@pinegrow/primevue-plugin"
+            >Pinegrow PrimeVue Plugin</a
           >
           <span>, </span>
           <a

@@ -10,6 +10,8 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 
 // import { visualizer } from 'rollup-plugin-visualizer'
 
+import { PrimeVueResolver } from '@primevue/auto-import-resolver'
+
 import site from './src/site'
 const { url: siteUrl } = site
 
@@ -29,6 +31,14 @@ export default defineConfig({
           iconPreferredCase: 'unocss', // default value (can be removed), unocss by default uses the unocss format for icon names
           devtoolsKey: 'devtoolsKey', // see app.ts
           /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
+          primevue: {
+            /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
+            configPath: 'primevue.config.ts', // or file where primevue is created
+            utilities: false,
+            themePath: false, // Set to false so that Design Panel is not used
+            // restartOnConfigUpdate: true,
+            // restartOnThemeUpdate: true,
+          },
           tailwindcss: {
             configPath: 'tailwind.config.ts',
             cssPath: '@/assets/css/tailwind.css',
@@ -77,7 +87,7 @@ export default defineConfig({
     // allow auto import and register components used in markdown
     // include: [/\.vue$/, /\.vue\?vue/, /\.md$/, /\.mdx?/] // already included by iles
 
-    // resolvers: [], // Auto-import using resolvers
+    resolvers: [PrimeVueResolver()], // Auto-import using resolvers
 
     // transformer: 'vue3', // already set by iles
 

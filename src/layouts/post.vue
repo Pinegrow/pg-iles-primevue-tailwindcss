@@ -12,7 +12,7 @@
             size="xs"
             class="ml-2"
             color="secondary"
-            to="https://github.com/pinegrow/pg-iles-tailwindcss"
+            to="https://github.com/pinegrow/pg-iles-primevue-tailwindcss"
             target="_blank"
           >
             <span>Click here</span>

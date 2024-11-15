@@ -22,21 +22,21 @@
       >Navigate across different routes, this counter from the pinia store is
       preserved</span
     >
-    <BaseButton
-      variant="soft"
+    <Button
+      outlined
       style="margin-left: 10px; margin-right: 10px"
       @click="decrement"
-      >-</BaseButton
+      >-</Button
     >
     <span style="min-width: 20px; display: inline-block; text-align: center">{{
       count
     }}</span>
 
-    <BaseButton
-      variant="soft"
+    <Button
+      outlined
       style="margin-left: 10px; margin-right: 10px"
       @click="increment"
-      >+</BaseButton
+      >+</Button
     >
   </div>
 </template>

@@ -11,14 +11,19 @@
 import { defineApp } from 'iles'
 import 'uno.css'
 import '@/assets/css/tailwind.css'
+import '@/assets/css/main.css'
 import 'prismjs/themes/prism-tomorrow.css'
 
 import { headConfig } from '@/plugins/head'
 import pinia from '@/plugins/pinia'
+import { primeVuePlugin } from '@/plugins/primevue'
 
 export default defineApp({
   enhanceApp({ app }) {
     app.use(pinia)
+    app.use(primeVuePlugin, {
+      theme: 'none', // Using tailwindcss instead
+    })
   },
   head({ frontmatter, site }) {
     return headConfig({ frontmatter, site })

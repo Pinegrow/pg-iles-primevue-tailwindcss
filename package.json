@@ -1,16 +1,16 @@
 {
-  "name": "pg-iles-tailwindcss",
+  "name": "pg-iles-primevue-tailwindcss",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://pg-iles-tailwindcss.netlify.app",
+  "homepage": "https://pg-iles-primevue-tailwindcss.netlify.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinegrow/pg-iles-tailwindcss.git"
+    "url": "https://github.com/pinegrow/pg-iles-primevue-tailwindcss.git"
   },
   "scripts": {
     "dev": "iles dev",
     "now": "npm run build && npm run preview",
-    "lighthouse": "npx unlighthouse --no-cache --site https://pg-iles-tailwindcss.netlify.app",
+    "lighthouse": "npx unlighthouse --no-cache --site https://pg-iles-primevue-tailwindcss.netlify.app",
     "build": "iles build",
     "preview": "iles preview --open --port 5050",
     "typecheck": "vue-tsc --noEmit",
@@ -28,6 +28,7 @@
     "defu": "^6.1.4",
     "lite-youtube-embed": "^0.3.3",
     "pinia": "^2.2.2",
+    "primevue": "^4.2.2",
     "vee-validate": "^4.13.2"
   },
   "devDependencies": {
@@ -35,8 +36,10 @@
     "@islands/prism": "^0.8.0",
     "@nuxt/eslint-config": "^0.5.7",
     "@pinegrow/iles-module": "^3.0.60",
+    "@pinegrow/primevue-plugin": "^3.0.2-beta.0",
     "@pinegrow/tailwindcss-plugin": "^3.0.30",
     "@preact/preset-vite": "^2.9.1",
+    "@primevue/auto-import-resolver": "^4.2.2",
     "@sveltejs/vite-plugin-svelte": "^3.1.2",
     "@tailwindcss/forms": "^0.5.9",
     "@tailwindcss/typography": "^0.5.15",
@@ -50,6 +53,7 @@
     "npm-run-all": "^4.1.5",
     "ofetch": "^1.4.0",
     "postcss": "^8.4.47",
+    "postcss-import": "^16.1.0",
     "preact": "^10.24.1",
     "preact-render-to-string": "^6.5.11",
     "prettier": "^3.3.3",
@@ -58,6 +62,7 @@
     "solid-js": "^1.9.1",
     "svelte": "^4.2.19",
     "tailwindcss": "^3.4.13",
+    "tailwindcss-primeui": "^0.3.4",
     "typescript": "^5.6",
     "unocss": "^0.62.4",
     "unplugin-auto-import": "^0.18.3",
