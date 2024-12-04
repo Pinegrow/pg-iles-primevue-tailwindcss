@@ -101,46 +101,46 @@ const pg_colors = {
     900: '#831843',
   },
   primary: {
-    50: '#ebf0f7',
-    100: '#cfddef',
-    200: '#b2cae6',
-    300: '#94b7de',
-    400: '#74a4d5',
-    500: '#4e92cd',
-    600: '#0681c4',
-    700: '#0676b3',
-    800: '#056ba3',
-    900: '#056193',
-    950: '#045683',
-    DEFAULT: '#044c74',
+    50: '#edf2fa',
+    100: '#d5e2f6',
+    200: '#bdd2f1',
+    300: '#a4c3ed',
+    400: '#8ab4e8',
+    500: '#6ca5e3',
+    600: '#4896de',
+    700: '#4289cb',
+    800: '#3c7db9',
+    900: '#3671a7',
+    950: '#306595',
+    DEFAULT: '#2b5983',
   },
   secondary: {
-    50: '#ebedf1',
-    100: '#cad1df',
-    200: '#a8b5cd',
-    300: '#879abb',
-    400: '#6581aa',
-    500: '#406898',
-    600: '#045087',
-    700: '#04497c',
-    800: '#034370',
-    900: '#033c65',
-    950: '#03365a',
-    DEFAULT: '#022f50',
+    50: '#ebeff6',
+    100: '#cfd8ec',
+    200: '#b2c1e2',
+    300: '#95abd8',
+    400: '#7695ce',
+    500: '#5380c3',
+    600: '#216cb9',
+    700: '#1e63a9',
+    800: '#1c5a9a',
+    900: '#19518b',
+    950: '#16487c',
+    DEFAULT: '#14406d',
   },
   tertiary: {
-    50: '#eff4fa',
-    100: '#dae6f5',
-    200: '#c5d8f0',
-    300: '#b0cbeb',
-    400: '#9abee6',
-    500: '#83b1e1',
-    600: '#6aa4dc',
-    700: '#6196c9',
-    800: '#5888b7',
-    900: '#507ba5',
-    950: '#476e93',
-    DEFAULT: '#3f6182',
+    50: '#f1f6fc',
+    100: '#e1edfa',
+    200: '#d0e4f7',
+    300: '#bfdaf4',
+    400: '#add1f2',
+    500: '#9bc8ef',
+    600: '#88bfec',
+    700: '#7cafd8',
+    800: '#719fc4',
+    900: '#668fb1',
+    950: '#5b809e',
+    DEFAULT: '#50718c',
   },
   neutral: {
     50: '#ebebeb',
@@ -215,26 +215,26 @@ const pg_colors = {
 }
 
 const pg_fonts = {
-  sans: ["'Fira Sans', sans-serif"],
-  serif: ["'Kalam', sans-serif"],
+  sans: ["'Mali', sans-serif"],
+  serif: ['"Courier New", Courier, monospace'],
 }
 
 const pg_font_urls = [
-  'https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900|Kalam:300,400,700&display=swap',
+  'https://fonts.googleapis.com/css?family=Mali:200,300,400,500,600,700&display=swap',
 ]
 
 const pg_backgrounds = {
   'design-image':
-    "url('https://images.unsplash.com/photo-1516091877740-fde016699f2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDEzfHxpc2xhbmR8ZW58MHx8fHwxNjg3MTgxNDIyfDA&ixlib=rb-4.0.3&q=80&w=1080')",
+    "url('https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDF8fGlzbGFuZCUyMHdhdGVyfGVufDB8fHx8MTczMjUyOTA2MHww&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max')",
   'design-image-large':
-    "url('https://images.unsplash.com/photo-1516091877740-fde016699f2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDEzfHxpc2xhbmR8ZW58MHx8fHwxNjg3MTgxNDIyfDA&ixlib=rb-4.0.3&q=80&w=2000')",
+    "url('https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDF8fGlzbGFuZCUyMHdhdGVyfGVufDB8fHx8MTczMjUyOTA2MHww&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=2000&fit=max')",
 }
 
 const pg_background_urls = {
   'design-image':
-    'https://images.unsplash.com/photo-1516091877740-fde016699f2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDEzfHxpc2xhbmR8ZW58MHx8fHwxNjg3MTgxNDIyfDA&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDF8fGlzbGFuZCUyMHdhdGVyfGVufDB8fHx8MTczMjUyOTA2MHww&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max',
   'design-image-large':
-    'https://images.unsplash.com/photo-1516091877740-fde016699f2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDEzfHxpc2xhbmR8ZW58MHx8fHwxNjg3MTgxNDIyfDA&ixlib=rb-4.0.3&q=80&w=2000',
+    'https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDF8fGlzbGFuZCUyMHdhdGVyfGVufDB8fHx8MTczMjUyOTA2MHww&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=2000&fit=max',
 }
 
 export { pg_colors, pg_fonts, pg_font_urls, pg_backgrounds, pg_background_urls }
