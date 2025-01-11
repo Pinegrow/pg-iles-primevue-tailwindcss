@@ -5,6 +5,7 @@
 export default {
   title: 'Vue Designer',
   description: 'Vue Designer îles PrimeVue Tailwind CSS - Quick start template',
+  logo: 'i-vscode-icons:file-type-coffeelint',
   author: 'Pinegrow',
   url: 'https://pg-iles-primevue-tailwindcss.netlify.app',
   github: 'https://github.com/pinegrow/pg-iles-primevue-tailwindcss',
@@ -15,24 +16,26 @@ export default {
   twitter: '@vuedesigner',
   trailingSlash: false, // default
   titleSeparator: '|', // default
-  nav: [
-    {
-      text: 'Home',
-      link: '/',
-      type: 'primary',
-      icon: 'i-mdi-home',
-    },
-    {
-      text: 'Quick Start',
-      link: '/quick-start',
-      type: 'primary',
-      icon: 'i-mdi-home',
-    },
-    {
-      text: 'Subscribe',
-      link: '/subscribe',
-      type: 'secondary',
-      icon: 'i-mdi-home',
-    },
-  ],
+
+  navs: {
+    primary: [
+      {
+        title: 'Home',
+        icon: 'i-mdi-home',
+        to: '/',
+      },
+      {
+        title: 'Quick Start',
+        icon: 'i-mdi-home',
+        to: '/quick-start',
+      },
+    ],
+    secondary: [
+      {
+        title: 'Subscribe',
+        icon: 'i-mdi-home',
+        to: '/subscribe',
+      },
+    ],
+  },
 }
