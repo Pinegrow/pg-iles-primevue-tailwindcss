@@ -4,6 +4,8 @@
 
 <script lang="ts">
   import { getPost, getPosts } from '@/composables/posts'
+  /* eslint-disable import/first */
+  /* https://github.com/directus/eslint-config/issues/2 */
   export default definePageComponent({
     async getStaticPaths() {
       const posts = getPosts()
@@ -19,7 +21,7 @@
 </script>
 
 <script setup lang="ts">
-  import { Post } from '@/composables/posts'
+  import type { Post } from '@/composables/posts'
 
   const props = defineProps<{ slug?: string }>()
   const post = computed((): Post => {

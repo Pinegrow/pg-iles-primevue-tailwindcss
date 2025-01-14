@@ -7,6 +7,7 @@
   import vueDesignerLogo from '@/assets/images/vue-designer.svg'
   const showTitle = ref(true)
 </script>
+
 <template>
   <div class="px-4 py-24 relative bg-primary-600 dark:bg-primary-200">
     <div class="container mx-auto flex flex-wrap items-center justify-center">
