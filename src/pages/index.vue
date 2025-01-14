@@ -1,6 +1,7 @@
 <page>
   title: Home
 </page>
+
 <template>
   <div>
     <div
