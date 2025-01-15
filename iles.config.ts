@@ -14,8 +14,8 @@ import { unheadVueComposablesImports } from '@unhead/vue'
 
 import { PrimeVueResolver } from '@primevue/auto-import-resolver'
 
-import site from './src/site'
-const { url: siteUrl } = site
+import siteMeta from './src/site'
+const { url: siteUrl } = siteMeta
 
 export default defineConfig({
   siteUrl,
